@@ -1,0 +1,45 @@
+buildscript {
+  repositories {
+    jcenter()
+  }
+  dependencies {
+    classpath 'com.google.code.gson:gson:2.6.2'
+  }
+}
+
+spoon {
+  adbTimeout = 60 * 10
+
+  String spoonClassName = screenshotsClass
+  String spoonMethodName = screenshotsMethod
+
+  if (takeScreenshots.toBoolean()) {
+    String locale = screenshotsLocale
+
+    if (locale != null && locale != "") {
+      String outputPath = getOutputPath(locale)
+      File output = new File(outputPath)
+      baseOutputDir = output
+      instrumentationArgs = ["locale=" + locale]
+    }
+  }
+
+  debug = true
+
+  noAnimations = true
+
+  if (spoonClassName != null) {
+    className = spoonClassName
+  }
+  if (spoonMethodName != null) {
+    methodName = spoonMethodName
+  }
+}
+
+private String getOutputPath(String locale) {
+  String buildDirectory = project.getBuildDir().toString();
+  String outputPath = buildDirectory + "/spoonLocalized/" + locale;
+  return outputPath
+}
+
+

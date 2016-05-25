@@ -1,0 +1,23 @@
+<resources>
+	<string name="app_name">DemoLocalizations</string>
+	<string name="action_settings">Settings</string>
+	<string name="ok_button">OK</string>
+	<string name="cancel_button">CANCEL</string>
+	<string name="dialog_title">Dialog title</string>
+	<string name="hello">Hello!</string>
+	<string name="snackbar_text">Replace with your own action</string>
+	<string name="toast_text">This is toast</string>
+	<string name="show_dialog">Show Dialog</string>
+	<string name="show_toast">Show Toast</string>
+	<string name="scrollview">Scrollview</string>
+	<plurals name="clicks_count">
+		<item quantity="one">%d click</item>
+		<item quantity="other">%d clicks</item>
+	</plurals>
+
+	<string name="lorem_ipsum"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt urna eu lacinia congue. Nullam sed leo augue. Cras consequat massa in nisi suscipit, vel gravida nisl pharetra. Pellentesque nisi tortor, pulvinar sollicitudin lacus vitae, commodo ultricies diam. Duis a volutpat nulla. Pellentesque mollis, urna auctor cursus sollicitudin, elit nisl lacinia arcu, eget pellentesque augue erat eget lectus. Donec ac commodo felis. Sed auctor ex iaculis lectus consequat venenatis. Proin pellentesque nulla vel neque sodales sodales. Etiam vehicula sed magna a consequat. Praesent blandit lectus eu metus sagittis euismod id eu velit. Donec id mi eu ante imperdiet fermentum. Nullam eu rhoncus metus. Vestibulum ultrices nibh non urna finibus fermentum. Cras eget diam vel sapien pulvinar mattis accumsan in purus.
+		\n\n Aliquam euismod eleifend molestie. Nullam ut ultrices orci. Ut aliquam, leo non ultrices pellentesque, nisl orci rutrum sapien, eget sagittis ex urna molestie magna. Nam fermentum, elit sit amet consectetur convallis, ante nibh ullamcorper lorem, posuere aliquet lectus dui venenatis est. Nullam porttitor dolor sapien, ut varius nulla molestie convallis. Mauris fringilla pharetra lectus, eget hendrerit sapien pulvinar at. Donec eget finibus dui. Fusce cursus ut felis bibendum efficitur. Phasellus venenatis odio leo, sit amet vehicula ante scelerisque sed. Curabitur quis ante ullamcorper arcu efficitur placerat a eu libero. Morbi elementum malesuada lacinia. Curabitur mattis ac felis vitae tincidunt. Aenean at luctus nibh. Quisque vulputate augue non pharetra pellentesque.
+		\n\n In eleifend augue justo, non porttitor leo semper eu. Praesent lorem quam, scelerisque sed justo ut, dignissim auctor neque. Vestibulum nec eleifend nisi, id convallis velit. Nulla molestie neque leo, sit amet lobortis nulla vestibulum id. Proin scelerisque, lorem et consectetur tempus, orci nibh blandit ex, at commodo arcu diam sed ipsum. Suspendisse scelerisque eros ac molestie facilisis. Integer cursus auctor augue, in aliquam mi bibendum porttitor. Donec vitae felis augue. Vivamus lorem sem, eleifend id ultricies ut, varius vitae ex. Aliquam nisl neque, rutrum ut mi eu, tincidunt fermentum orci. Duis quis luctus justo. Maecenas accumsan metus efficitur augue vehicula posuere.
+	</string>
+
+</resources>

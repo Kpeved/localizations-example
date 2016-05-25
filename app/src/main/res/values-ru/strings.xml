@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="ok_button">ХОРОШО</string>
+	<string name="action_settings">Настройки</string>
+	<string name="app_name">ДемоЛокализации</string>
+	<string name="cancel_button">ОТМЕНА</string>
+	<string name="dialog_title">Заголовок диалога</string>
+	<string name="hello">Здравствуйте!</string>
+	<string name="show_dialog">Показать диалог</string>
+	<string name="show_toast">Показать тост</string>
+	<string name="scrollview">Скролвью</string>
+
+	<plurals name="clicks_count">
+		<item quantity="one">%d нажатие</item>
+		<item quantity="few">%d нажатия</item>
+		<item quantity="many">%d нажатий</item>
+		<item quantity="other">%d нажатий</item>
+	</plurals>
+</resources>
