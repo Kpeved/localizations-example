@@ -1,0 +1,2 @@
+# localizations-example
+screenshots tests
